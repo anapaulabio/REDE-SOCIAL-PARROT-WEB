@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
 a{
   text-decoration: none;
 }
