@@ -7,9 +7,10 @@ function Feed() {
   return (
     <div>
       <Navbar />
+      
 
       <div className="h-100 row text-center">
-      
+         
         <div className="p-0 h-100 col-md-6 offset-md-3 border border-dark">
           <div className="d-flex border-bottom border border-dark  p-4">
             <div className="px-3">
@@ -19,7 +20,7 @@ function Feed() {
             <div className="col-10 p-2 ">
               <textarea
                 className="form-control border-success"
-                placeholder="Leave a comment here"
+                placeholder="comentarios"
               ></textarea>
 
               <div className="d-grid gap-2 d-md-flex justify-content-md-end">
@@ -33,11 +34,10 @@ function Feed() {
             </div>
           </div>
         </div>
-        {/* ******** */}
-        {/* <div className="col-3 border border-dark"></div> */}
-        {/* ******** */}
+        
       </div>
     </div>
+    
   );
 }
 
