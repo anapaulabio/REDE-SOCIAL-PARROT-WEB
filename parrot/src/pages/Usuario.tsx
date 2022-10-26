@@ -1,5 +1,5 @@
 import NavBar from "../components/Navbar"
-import NewPost from "../components/NewPost"
+// import NewPost from "../components/NewPost"
 import faker from '../api-test.json'
 import Post from "../components/post"
 import Perfil from "../components/Perfil"
@@ -15,7 +15,7 @@ const Usuario = (props: UsuarioProps) => {
     <div>
       {/* //componente do navbar */}
       <NavBar />
-      {/* //componente de criação de post */}
+      {/* //componente de criação de perfil */}
       <Perfil/>
       {/* //componente para mostrar o feed de posts */}
       {Aptos.map((apto)=>(
