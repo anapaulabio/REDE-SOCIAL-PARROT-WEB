@@ -1,0 +1,32 @@
+body {
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    max-width: 50%;
+    margin-top: 5rem;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    padding: 4rem 0 4rem 0;
+}
+
+.container h1 {
+    text-transform: uppercase;
+}
+
+.container-itens {
+    text-align: center;
+}
+
+.form-label {
+    width: 30rem;
+    text-align: center;
+    gap: 30rem;
+}
+::placeholder {
+    text-align: center;
+}
+
+/*Fazer responsividade*/
