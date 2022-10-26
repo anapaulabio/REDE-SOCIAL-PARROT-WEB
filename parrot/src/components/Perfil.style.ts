@@ -5,9 +5,14 @@ export const Avatar = styled.div`
 height: 70px;
 width: 70px;
 `
-export const Titulo = styled.h2`
+export const Titulo = styled.h4`
 color: #76bb4c;
-margin-top: 0 auto;
+
+
+`
+export const Texto = styled.p`
+line-height: 5px;
+
 `
 
 export const Editar = styled.button`
