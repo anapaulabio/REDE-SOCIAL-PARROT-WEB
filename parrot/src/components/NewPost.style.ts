@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 export const CreatePost = styled.div`
 padding-top: 43px;
 border-width: 0px 1px 1px 1px;
@@ -24,6 +23,7 @@ export const PostForm = styled.form`
     border: 1px solid #8BC34A;
     border-radius: 10px;
   }
+
   input{
     font-family: 'Questrial';
     font-style: normal;
@@ -39,4 +39,4 @@ export const PostForm = styled.form`
     margin-top: 18px;
     margin-bottom: 28px;
   }
-`
+`;

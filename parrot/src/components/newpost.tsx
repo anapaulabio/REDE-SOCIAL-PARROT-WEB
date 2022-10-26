@@ -1,5 +1,6 @@
 import { CreatePost, PostForm } from './NewPost.style'
 import icon from '../../img/icon.png'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 type NewPostProps = {}
 

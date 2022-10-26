@@ -1,40 +1,21 @@
-// import NavBar from "../components/Navbar"
-// import NewPost from "../components/newpost"
-// import faker from '../api-test.json'
-// import Post from "../components/post"
-
-// type HomeProps = { router }
-
-// const Home = (props: HomeProps) => {
-
-//   const { Aptos } = faker
-
-
-//   return (
-//     <div>
-//       {/* //componente do navbar */}
-//       <NavBar />
-//       {/* //componente de criação de post */}
-//       <NewPost/>
-//       {/* //componente para mostrar o feed de posts */}
-//       {Aptos.map((apto)=>(
-//         <Post key={apto.id} id={apto.id} nome={apto.nome} ap={apto.ap} timestamp={apto.timestamp} post={apto.post}/>
-//       ))}
-//     </div>
-//   )
-// }
-
-// export default Home
-
 import { createBrowserRouter } from "react-router-dom";
-
+import Perfil from "../components/perfil"
 import Home from "../pages/home";
+import NewPost from "../components/newpost";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/home",
     element: <Home />,
   },
+  {
+    path: "/perfil",
+    element: <Perfil />,
+  },
+  {
+    path: "/newpost",
+    element: <NewPost />,
+  }
 
 ]);
 
