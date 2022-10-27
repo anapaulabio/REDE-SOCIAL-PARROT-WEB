@@ -1,28 +1,36 @@
-import { DivPerfil, PerfilImg } from './Perfil.style'
-import icon from '../../img/icon.png'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { Avatar, Titulo, Editar, Texto } from "./Perfil.style";
+import icon from "../../img/icon.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-type PerfilProps = {}
+type PerfilProps = {};
 
 const Perfil = (props: PerfilProps) => {
-
   return (
-    <PerfilImg className='row'>
-      <img src={icon} alt="foto de avatar" className='col-lg-2 col-md-2 col-sm-2 col-3' />
+    <div className="container-fluid min-vh-100 d-flex flex-column">
+      <div className="row">
+        <div className="col-md-6 offset-md-3 border-end border-start p-0">
+          <div className="border-bottom">
+            <div className="d-flex">
+              <div className="col-2 p-4">
+                <Avatar>
+                  <img src={icon} />
+                </Avatar>
+              </div>
+              <div className="col-7 p-3">
+                <Titulo>Nome Sobrenome</Titulo>
+                <Texto>Apto 55</Texto>
+                <Texto>user@mail.com</Texto>
+                <Texto>publicaçoes "00"</Texto>
+              </div>
+              <div className="col-3">
+                <Editar>editar perfil</Editar>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-        <DivPerfil className='d-flex flex-column col-lg-10 col-md-10 col-sm-10 col-9'>
-         <span>
-         <h2>name sobrenome</h2>
-         <p>'apto'+ number</p>
-         <p>email</p>
-         </span>
-
-
-         <input type="submit" value='publicar'/>
-        </DivPerfil>
-
-    </PerfilImg>
-  )
-}
-
-export default Perfil
+export default Perfil;
