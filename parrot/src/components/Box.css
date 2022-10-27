@@ -1,9 +1,9 @@
 body {
-    background-image: url(./img/background.jpg);
+    background-image: url(./img/background.png);
     background-size: cover;
 }
 
-.container {
+.box-container {
     display: flex;
     max-width: 50%;
     margin-top: 5rem;

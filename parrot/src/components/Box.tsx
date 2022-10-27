@@ -1,33 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "./Box.css";
 import Button from "../components/Button";
+import Input from './Input';
 
 
 function Box() {
     return(
-        <div className="container">
+        <div className="box-container">
             <div className="container-itens">
                 <div className='logo'>
                 <img src="./img/logo1.png" alt="" />
                 </div>
 
-                <h1>Login</h1>
+                <h1>Cadastro</h1>
+                <Input/>
 
-                {/* <div><label htmlFor="email" className="form-label"></label>
-                <input
-                type="text"
-                className="form-control"
-                placeholder="email"
-                id="email"/>
-
-                <label htmlFor="senha" className="form-label"></label>
-                <input
-                type="text"
-                className="form-control"
-                placeholder="senha"
-                id="senha"/> 
-                </div>   */}
-                            
             </div>
         </div>
     )
