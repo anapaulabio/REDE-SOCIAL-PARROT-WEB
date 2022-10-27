@@ -1,5 +1,5 @@
 import Input from "../components/Input"
-import Box from "../components/Box"
+import BoxLogin from "../components/Box-login"
 
 type LoginProps = {}
 
@@ -7,7 +7,7 @@ const Login = (props: LoginProps) => {
 
     return (
       <div>
-        <Box/>
+        <BoxLogin/>
       </div>
     )
   }

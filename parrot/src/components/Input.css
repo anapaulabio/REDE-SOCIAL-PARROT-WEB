@@ -1,7 +1,11 @@
 .input-wrapper {
     margin-bottom: 20px;
+    border-color: #909090;  
 }
 
 input {
     border-radius: 10px;
+    border-color: #909090;
+    width: 80%;
+    margin-bottom: 1.5rem ;
   }

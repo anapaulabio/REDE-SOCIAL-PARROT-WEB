@@ -1,15 +1,23 @@
-body {
+.bg-img {
     background-image: url(./img/background.png);
     background-size: cover;
+ 
+    padding: auto;
 }
 
 .box-container {
-    display: flex;
-    max-width: 50%;
-    margin-top: 5rem;
+ 
+
+    max-width: 480px;
+    max-height: 840px;
     background: #FFFFFF;
     border: 1px solid #C5C5C5;
     padding: 4rem 0 4rem 0;
+}
+
+.box-form {
+    max-width: 100%;
+    
 }
 
 .container h1 {
@@ -18,13 +26,9 @@ body {
 
 .container-itens {
     text-align: center;
+    width: 100%;
 }
 
-.form-label {
-    width: 30rem;
-    text-align: center;
-    gap: 30rem;
-}
 ::placeholder {
     text-align: center;
 }
