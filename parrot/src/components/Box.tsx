@@ -13,12 +13,12 @@ function Box() {
 
           <h1>Cadastro</h1>
           <form className="box-form" action="">
-            <Input placeholder="nome"/>
-            <Input placeholder="email"/>
-            <Input placeholder="senha"/>
-            <Input placeholder="confirmar senha"/>
-            <Input placeholder="unidade/apartamento"/>
-            <Input placeholder="link da foto"/>
+            <Input name="nome" label="" type="text" placeholder="nome"/>
+            <Input name="email" label="" type="email" placeholder="email"/>
+            <Input name="senha" label="" type="password" placeholder="senha"/>
+            <Input name="senha" label="" type="password" placeholder="confirmar senha"/>
+            <Input name="ap" label="" type="number" placeholder="unidade/apartamento"/>
+            <Input name="link" label="" type="text" placeholder="link da foto"/>
 
 
 

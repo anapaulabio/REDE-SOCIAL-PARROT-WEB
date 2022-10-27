@@ -1,8 +1,10 @@
 .bg-img {
     background-image: url(./img/background.png);
     background-size: cover;
- 
-    padding: auto;
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 .box-container {
@@ -17,6 +19,7 @@
 
 .box-form {
     max-width: 100%;
+    text-align: center;
     
 }
 

@@ -13,8 +13,8 @@ function BoxLogin() {
 
           <h1>Login</h1>
           <form className="box-form" action="">
-            <Input placeholder="email"/>
-            <Input placeholder="senha"/>
+          <Input name="email" label="" type="email" placeholder="email"/>
+          <Input name="senha" label="" type="password" placeholder="senha"/>
 
             <Button text="entrar"/>
           </form>
