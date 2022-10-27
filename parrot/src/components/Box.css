@@ -35,4 +35,10 @@
     text-align: center;
 }
 
+.Link-cadastro {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #555555;
+}
+
 /*Fazer responsividade*/

@@ -9,6 +9,7 @@ export const ButtonForm = styled.button`
     font-weight: 400;
     font-size: 24px;
     line-height: 25px;
+    margin-bottom: 1.5rem;
     
     @media only screen and (max-width: 600px){
         width: 5rem;

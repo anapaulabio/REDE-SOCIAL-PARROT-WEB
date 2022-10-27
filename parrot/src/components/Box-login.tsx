@@ -1,6 +1,7 @@
 import "./Box.css";
 import Button from "../components/Button";
 import Input from "./Input";
+import { Link } from "react-router-dom";
 
 function BoxLogin() {
   return (
@@ -16,8 +17,9 @@ function BoxLogin() {
           <Input name="email" label="" type="email" placeholder="email"/>
           <Input name="senha" label="" type="password" placeholder="senha"/>
 
-            <Button text="entrar"/>
+          <Button text="entrar" type={"submit"} value={""}/>
           </form>
+          <Link className="Link-cadastro" to="/Cadastro">Cadastre-se</Link>
         </div>
       </div>
     </div>
