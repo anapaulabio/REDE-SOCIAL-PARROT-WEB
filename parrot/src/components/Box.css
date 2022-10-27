@@ -1,30 +1,36 @@
-body {
-    background-image: url(./img/background.jpg);
+.bg-img {
+    background-image: url(./img/background.png);
     background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
-.container {
-    display: flex;
-    max-width: 50%;
-    margin-top: 5rem;
+.box-container {
+
+    max-width: 480px;
     background: #FFFFFF;
     border: 1px solid #C5C5C5;
     padding: 4rem 0 4rem 0;
 }
 
-.container h1 {
+.box-form {
+    max-width: 100%;
+    text-align: center;
+    
+}
+
+.box-container h1 {
     text-transform: uppercase;
+    margin: 1rem 0 1rem;
 }
 
 .container-itens {
     text-align: center;
+    width: 100%;
 }
 
-.form-label {
-    width: 30rem;
-    text-align: center;
-    gap: 30rem;
-}
 ::placeholder {
     text-align: center;
 }

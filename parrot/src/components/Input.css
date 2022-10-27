@@ -1,0 +1,13 @@
+.input-wrapper {
+    margin-bottom: 20px;
+  
+}
+
+input {
+    border-radius: 10px;
+    border-color: #909090;
+    border-style: solid;
+    width: 80%;
+    margin-bottom: 1.5rem ;
+    text-align: center;
+  }
