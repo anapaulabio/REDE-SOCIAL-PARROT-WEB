@@ -1,13 +1,17 @@
+import {ButtonHTMLAttributes} from "react";
 import{ButtonForm} from "./Button.style"
 
-type ButtonProps = {
+
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>{
+    type: "submit" | "reset" | "button" ;
+    value: string;
     text: string;
 }
 
 
-function Button(props:ButtonProps){
+function Button ({type="submit", value="submit", text}:ButtonProps){
     return(
-        <ButtonForm>{props.text}</ButtonForm>
+        <ButtonForm type={type} value={value}>{text}</ButtonForm>
     )
     
 }
