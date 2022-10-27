@@ -1,5 +1,5 @@
 import NavBar from "../components/Navbar"
-import NewPost from "../components/newpost"
+import NewPost from "../components/NewPost"
 import faker from '../api-test.json'
 import Post from "../components/post"
 
