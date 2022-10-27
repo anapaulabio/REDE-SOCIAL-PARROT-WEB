@@ -3,15 +3,13 @@
     background-size: cover;
     min-height: 100vh;
     height: 100%;
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
 }
 
 .box-container {
- 
 
     max-width: 480px;
-    max-height: 840px;
     background: #FFFFFF;
     border: 1px solid #C5C5C5;
     padding: 4rem 0 4rem 0;
@@ -23,8 +21,9 @@
     
 }
 
-.container h1 {
+.box-container h1 {
     text-transform: uppercase;
+    margin: 1rem 0 1rem;
 }
 
 .container-itens {
