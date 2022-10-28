@@ -1,4 +1,6 @@
 import "./Box.css";
+import axios from 'axios'
+import api from "../service/api"
 import Button from "../components/Button";
 import Input from "./Input";
 
@@ -22,7 +24,7 @@ function Box() {
 
 
 
-            <Button text="entrar"/>
+            <Button type="submit" value="submit" text="entrar"/>
           </form>
         </div>
       </div>
