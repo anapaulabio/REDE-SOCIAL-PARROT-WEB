@@ -1,18 +1,23 @@
 import React, { FC, InputHTMLAttributes} from "react";
 import "./Input.css";
 
+type onChangeProps ={
+    
+} 
+
 interface InputProps extends InputHTMLAttributes<HTMLElement> {
     name: string;
     label: string;
     placeholder: string;
+    value:string;
     type: string;
+    onChange:{};
 }
 
-const Input: FC<InputProps> = ({name, label, placeholder, type,  ...rest}) => {
+const Input: FC<InputProps> = ({name, placeholder, type,value,Onchange, ...rest}) => {
     return (
         <div className="input">
-            <label htmlFor={name}>{label}</label>
-            <input id={name} placeholder={placeholder} type = {type} {...rest}></input>
+            <input id={name} placeholder={placeholder} type = {type} value={value} Onchange={Onchange} {...rest}></input>
         </div>
     );
 };
