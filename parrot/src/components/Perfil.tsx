@@ -1,5 +1,6 @@
 import { Avatar, Titulo, Editar, Texto } from "./Perfil.style";
 import icon from "../../img/icon.png";
+import parrotwhite from "../../img/parrotwhite.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 type PerfilProps = {};
@@ -29,8 +30,12 @@ const Perfil = (props: PerfilProps) => {
           </div>
         </div>
       </div>
+    <div className="p-5"><div><h3>você ainda nao fez nenhuma publicação :( </h3>
+    <img src={parrotwhite} className="rounded mx-auto d-block" />
+    </div></div>
     </div>
   );
 };
+              
 
 export default Perfil;
