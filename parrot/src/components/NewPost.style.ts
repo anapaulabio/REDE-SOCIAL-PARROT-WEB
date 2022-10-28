@@ -12,6 +12,9 @@ border-color: #C5C5C5;
     max-width: 100px;
     max-height: 70px;
   }
+  @media only screen and (max-width: 500px){
+        img{display: none;}
+    }
 `
 
 export const PostForm = styled.form`

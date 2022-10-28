@@ -36,4 +36,7 @@ export const PostDetail = styled.div`
     max-width: 100px;
     max-height: 70px;
   }
+  @media only screen and (max-width: 450px){
+        img{display: none;}
+    }
 `

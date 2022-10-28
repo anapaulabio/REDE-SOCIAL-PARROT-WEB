@@ -1,5 +1,8 @@
 import "./Box.css";
-import axios from "axios";
+
+import axios from 'axios'
+import api from "../service/api"
+
 import Button from "../components/Button";
 import Input from "./Input";
 import { FormEvent, useState } from "react";
@@ -54,7 +57,9 @@ function Box() {
             <input name="ap" value={apartment} onChange={(event) => setApartment(Number(event.target.value))} type="number" placeholder="unidade/apartamento"/>
             <input name="link" value={linkdafoto} onChange={(event) => setLinkFoto(event.target.value)} type="text" placeholder="link da foto"/>
 
+
             <Button type ="submit" value="submit" text="entrar"/>
+
           </form>
         </div>
       </div>

@@ -49,4 +49,16 @@ input {
     display:inline-block
   }
 
+.Link-cadastro {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #555555;
+}
+
 /*Fazer responsividade*/
+
+@media only screen and (max-width: 600px) {
+    .box-container {
+        max-width: 80%;
+    }
+}
