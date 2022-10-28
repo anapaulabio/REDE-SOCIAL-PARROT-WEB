@@ -42,3 +42,9 @@
 }
 
 /*Fazer responsividade*/
+
+@media only screen and (max-width: 600px) {
+    .box-container {
+        max-width: 80%;
+    }
+}
