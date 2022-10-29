@@ -60,9 +60,6 @@ function BoxLogin() {
             <Button type="submit" value="submit" text="entrar"/>
 
 
-            <Link to="/home"><p>Feed</p></Link>
-
-          <Button text="entrar" type={"submit"} value={""}/>
 
           </form>
           <Link className="Link-cadastro" to="/Cadastro">Cadastre-se</Link>
